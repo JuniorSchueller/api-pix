@@ -40,7 +40,7 @@ const requestBody = {
 
 var rota = "<rota-aqui>";
 
-fetch("https://api-pix-one.vercel.app/pix/" + rota, {
+fetch("https://pix-easy.vercel.app/pix/" + rota, {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
